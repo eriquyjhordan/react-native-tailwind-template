@@ -1,7 +1,6 @@
-import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import Home from './src/screens/Home';
-
+import React from 'react'
+import { StatusBar } from 'expo-status-bar'
+import Home from './src/screens/Home'
 
 export default function App() {
   return (
@@ -9,5 +8,5 @@ export default function App() {
       <Home />
       <StatusBar style="light" />
     </>
-  );
+  )
 }
